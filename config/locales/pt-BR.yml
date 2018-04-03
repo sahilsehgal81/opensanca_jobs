@@ -1,0 +1,57 @@
+pt-BR:
+  shared:
+    navbar:
+      sign_out: Logout
+      my_vacancies: "Minhas Vagas"
+  menu:
+    all_vacancies: "Todas as vagas"
+  metatags:
+    vacancy_description: '%{job_title} - %{company_name} em %{location}.'
+  messages:
+    apply_for_job: "Aplicar"
+    edit_vacancy: "Editar"
+
+  vacancies:
+    index:
+      advertise_message:    "Anunciar vaga"
+      no_vacancies:         "Desculpe, nenhuma vaga disponível 😔"
+      title:                "Todas as vagas"
+      welcome_message_html: "Encontre as melhores vagas! <br> Encontre os profissionais certos para sua empresa!"
+      vacancies: "Lista de vagas anunciadas"
+    show:
+      apply_help_html: >
+                 <li>  Encontre uma vaga, pesquise seus requisitos e garata que os cumpra.</li>
+                 <li>  Escreva seu currículo e uma carta de apresentação.</li>
+                 <li>  Pegue algumas referências de experiências anteriores.</li>
+                 <li>  Se candidate online ou por E-Mail.</li>
+                 <li>  Após uma semana, entre em contato com o responsável pela contratação.</li>
+      help_friends:    "Você pode ajudar seus amigos a encontrar ótimas oportunidades!"
+      how_to_apply:    "Como se candidatar"
+      job_description: "Descrição da vaga"
+      recommend:       "Recomendar vaga"
+    form:
+      description:     "Descrição da vaga"
+      how_to_apply:    "Como os candidatos devem se aplicar para a vaga?"
+      job_title:       "Título da vaga"
+      location:        "Cidade"
+    new:
+      submit_vacancy:  "Enviar vaga"
+    create:
+      success: "Vaga enviada com sucesso."
+    search: "Pesquisar"
+    edit:
+      edit_vacancies: "Editar Vaga"
+      submit_vacancy:  "Atualizar vaga"
+    update:
+      success: "Vaga atualizada."
+
+  users:
+    form:
+      company_data: 'Dados da Empresa'
+      title: 'Cadastro de usuário'
+
+  helpers:
+    submit:
+      vacancy:
+        create: "Enviar vaga"
+        update: "Atualizar vaga"

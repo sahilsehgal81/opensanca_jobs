@@ -1,0 +1,14 @@
+<h1><%= t(".title") %></h1>
+
+<%= form.text_field :email, autofocus: true, class: 'field', type: 'email', placeholder: User.human_attribute_name('email') %>
+
+<%= form.password_field :password, class: 'field', placeholder: User.human_attribute_name('password') %>
+
+<br/>
+
+<h1><%= t(".company_data") %></h1>
+
+<%= form.fields_for :company, @user.company || @user.build_company do |company_form| %>
+  <%= company_form.text_field :name, class: 'field', placeholder: Company.human_attribute_name(:name) %>
+  <%= company_form.text_field :url,  class: 'field', placeholder: Company.human_attribute_name(:url) %>
+<% end %>

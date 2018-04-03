@@ -1,0 +1,17 @@
+<section>
+  <div class="row">
+    <div class="col-md-12">
+      <h1 class="text-center">
+        <%= t("vacancies.index.vacancies") %>
+      </h1>
+    </div>
+  </div>
+</section>
+
+<section>
+  <article>
+    <div class="vacancy-list">
+      <%= render(@vacancies) || no_content_message(t(".no_vacancies")) %>
+    </div>
+  </article>
+</section>
